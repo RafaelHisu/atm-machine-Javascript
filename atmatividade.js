@@ -51,19 +51,15 @@ function fazerdeposito() {
        
         if (senha == 3589) {
             saldo += deposito;
-            versaldo();
+            
         } else {
             alert(`Senha inválida`)
             fazerdeposito();
         }
 
-        
-
         versaldo();
     }
 
-
-        versaldo();
     }
 
 function fazersaque() {
@@ -79,8 +75,8 @@ function fazersaque() {
         senha = prompt(`Qual a senha?`)
        
         if (senha == 3589) {
-            saldo -= saque 
-            versaldo();
+            saldo -= saque;
+    
 
         } else {
             alert(`Senha inválida`)
@@ -113,7 +109,6 @@ function fazertransferencia() {
         if (senha == 3589) {
             saldo -= transferencia;
             alert(`Um valor de ${transferencia} foi tranferido para o ID: ${id}`);
-            versaldo();
         } else {
             alert(`Senha inválida`)
             fazertransferencia();
